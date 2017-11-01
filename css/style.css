@@ -7,14 +7,21 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 90px;
+  height: 60px;
   border-bottom: 1px solid grey;
   margin-bottom: 25px;
   background-color: white;
+  width: 1100px;
+  position: fixed;
+  top: 0px;
+}
+.content {
+  margin-top: 80px;
 }
 nav {
   margin: auto;
   font-size: 20px;
+
 }
 nav a {
   margin-right: 15px;
@@ -91,23 +98,14 @@ footer {
         display: flex;
         align-items: baseline;
         flex-direction: row;
-        justify-content: space-around;
-        order: 1;
+        justify-content: space-around;,
     }
-    section:first-child {
-      order: 2;
-    }
+
     article.home {
         height: 440px;
         width: 350px;
         padding: 15px 0px 15px 0px;
-      
-    }
-    section article{
-      order: 1;
-    }
-    section article:first-child{
-      order: 2;
+
     }
     aside {
         display: flex;
